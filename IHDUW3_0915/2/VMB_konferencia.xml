@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<konferencia>
+    <cim>Programozas</cim>
+    <eloado>
+        <nev>Kis Adam</nev>
+        <adoszam>124012</adoszam>
+        <lakcim>Kecskemet Alkotmany ut 3</lakcim>
+    </eloado>
+    <datum>2021.10.05</datum>
+    <helyszin>A1/15</helyszin>
+    <hallgatok>
+        <hallgato>
+            <nev>Bud Spencer</nev>
+            <lakcim>Budapest Jozsef attila utca 3</lakcim>
+        </hallgato>
+    </hallgatok>
+</konferencia>
