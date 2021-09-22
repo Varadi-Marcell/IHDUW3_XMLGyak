@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1em;
+  color: #009;
+  margin-bottom: .3em;
+  text-decoration: underline;
+}
+
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+}
+
+table {
+  margin: .3em;
+  width: 500px;
+  border-radius: 25px;
+
+}
+form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+label{
+	  padding: 8px;
+	  font-size: 22px;
+
+}
+th {
+  padding: .2em;
+}
+
+td {
+  padding-left: .5em;
+  padding-right: .5em;
+  background-color: #6e94dc;
+  border-radius: 25px;
+}
