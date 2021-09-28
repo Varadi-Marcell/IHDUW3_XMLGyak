@@ -1,0 +1,56 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Er (Keys,A,B,C)>
+<!ATTLIST Er
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Keys (key)+>
+<!ATTLIST Keys
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT A (a,b,c)>
+<!ATTLIST A
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT B (a,c)>
+<!ATTLIST B
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT C (a,b)>
+<!ATTLIST C
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT key EMPTY>
+<!ATTLIST key
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT a EMPTY>
+<!ATTLIST a
+  xmlns CDATA #FIXED ''
+  id CDATA #IMPLIED>
+
+<!ELEMENT b (x,y)?>
+<!ATTLIST b
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT x EMPTY>
+<!ATTLIST x
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT y EMPTY>
+<!ATTLIST y
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT c ((a,b)|(d,e))>
+<!ATTLIST c
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT d EMPTY>
+<!ATTLIST d
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT e EMPTY>
+<!ATTLIST e
+  xmlns CDATA #FIXED ''>
+

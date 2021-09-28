@@ -1,0 +1,19 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT adatbazis (Dolgozo,nev,fizetes)>
+<!ATTLIST adatbazis
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Dolgozo EMPTY>
+<!ATTLIST Dolgozo
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT nev EMPTY>
+<!ATTLIST nev
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fizetes EMPTY>
+<!ATTLIST fizetes
+  xmlns CDATA #FIXED ''>
+
