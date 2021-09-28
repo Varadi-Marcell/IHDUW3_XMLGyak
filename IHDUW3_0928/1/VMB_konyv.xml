@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE Books SYSTEM " VMB_konyv.dtd">
+<Books>
+    <Book id="1" abstract="true">
+        <Title>JavaScript For Begginers</Title>
+        <Year>2003</Year>
+        <Publisher>AKJomat Co</Publisher>
+        <Author>Jonatan Jackson</Author>
+        <Author>Jonatan Jackson2</Author>
+        <Absract>JavaScript is good</Absract>
+    </Book>
+    
+    <Book id="2">
+        <Title>Learn XML and DTD</Title>
+        <Year>2009</Year>
+        <Publisher>Hermit Bt</Publisher>
+        <Author>John Cascade</Author>
+        <Absract>Xml and dtd</Absract>
+    </Book>
+    
+    <Book id="3">
+        <Title>Linux bash</Title>
+        <Year>2020</Year>
+        <Publisher>Writter Co</Publisher>
+        <Author>Michael Cash</Author>
+        <Absract>we hate windows</Absract>
+    </Book>
+</Books>
+

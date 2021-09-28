@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Er>
+    <Keys>
+        <key id="A"/>
+        <key id="B"/>
+    </Keys>
+    <A>
+        <a id=1></a>
+        <b>
+            <x><x>
+            <y></y>
+        </b>
+        <c>
+            <d><d>
+            <e></e>
+        </c>
+    </A>
+</Er>
+
