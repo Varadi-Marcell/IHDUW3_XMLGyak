@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<konyvek>
+	<konyv isbn="">
+		<cim></cim>
+		<szerzo></szerzo>
+		<szereplo>
+			<nev></nev>
+			<baratja></baratja>
+			<szuletett></szuletett>
+			<jellemzes></jellemzes>
+		</szereplo>
+		<masik>
+		<>
+	</konyv>
+</konyvek>

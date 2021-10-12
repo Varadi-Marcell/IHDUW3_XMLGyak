@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orarend>
+    <ora id="1" tipus="hetfo">
+        <targy id="1" nev="Webes alkalmazasok">
+            <idopont>
+                <nap>Hetfo</nap>
+                <tol>10 ora</tol>
+                <ig>12 ora</ig>
+            </idopont>
+            <helyszin>in/101</helyszin>
+            <oktato>Krizsan Zoltan</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="2" nev="WEB technologiak">
+            <idopont>
+                <nap>Hetfo</nap>
+                <tol>12 ora</tol>
+                <ig>14 ora</ig>
+            </idopont>
+            <helyszin>XXX A1 III</helyszin>
+            <oktato>Agardi Anita</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="3" nev="Mesterseges intelligencia">
+            <idopont>
+                <nap>Hetfo</nap>
+                <tol>14 ora</tol>
+                <ig>17 ora</ig>
+            </idopont>
+            <helyszin>XXXII A1</helyszin>
+            <oktato>Dr. Dudas Laszlo</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="4" nev="WEB technologiak">
+            <idopont>
+                <nap>Hetfo</nap>
+                <tol>17 ora</tol>
+                <ig>19 ora</ig>
+            </idopont>
+            <helyszin>In/101</helyszin>
+            <oktato>Tamas Judit</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+    </ora>
+    <ora id="2" tipus="kedd">
+        <targy id="1" nev="Webes alkalmazasok">
+            <idopont>
+                <nap>kedd</nap>
+                <tol>10 ora</tol>
+                <ig>12 ora</ig>
+            </idopont>
+            <helyszin>in/101</helyszin>
+            <oktato>Krizsan Zoltan</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="2" nev="Adatkezeles XML-ben">
+            <idopont>
+                <nap>kedd</nap>
+                <tol>12 ora</tol>
+                <ig>14 ora</ig>
+            </idopont>
+            <helyszin>I A2</helyszin>
+            <oktato>Bednarik Laszlo</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="3" nev="Adatkezeles XML-ben">
+            <idopont>
+                <nap>kedd</nap>
+                <tol>14 ora</tol>
+                <ig>16 ora</ig>
+            </idopont>
+            <helyszin>In/103</helyszin>
+            <oktato>Bednarik Laszlo</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="4" nev="Idegennyelv 1">
+            <idopont>
+                <nap>kedd</nap>
+                <tol>16 ora</tol>
+                <ig>18 ora</ig>
+            </idopont>
+            <helyszin>A1/ 11</helyszin>
+            <oktato>Dorko Dora</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="5" nev="Mesterseges intelligencia">
+            <idopont>
+                <nap>kedd</nap>
+                <tol>18 ora</tol>
+                <ig>19 ora</ig>
+            </idopont>
+            <helyszin>In/15</helyszin>
+            <oktato>Dudas Laszlo</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+    </ora>
+    <ora id="3" tipus="szerda">
+        <targy id="1" nev="Szoftverteszteles">
+            <idopont>
+                <nap>szerda</nap>
+                <tol>8 ora</tol>
+                <ig>10 ora</ig>
+            </idopont>
+            <helyszin>In/103</helyszin>
+            <oktato>Tamas Judit</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="2" nev="Szoftverteszteles">
+            <idopont>
+                <nap>szerda</nap>
+                <tol>10 ora</tol>
+                <ig>12 ora</ig>
+            </idopont>
+            <helyszin>In/103</helyszin>
+            <oktato>Tompa Tamas</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="3" nev="Integralt vallalati rendszerek">
+            <idopont>
+                <nap>szerda</nap>
+                <tol>14 ora</tol>
+                <ig>16 ora</ig>
+            </idopont>
+            <helyszin>A1/14</helyszin>
+            <oktato>Samad Dadvandipour</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+        <targy id="4" nev="Integralt vallalati rendszerek">
+            <idopont>
+                <nap>szerda</nap>
+                <tol>16 ora</tol>
+                <ig>18 ora</ig>
+            </idopont>
+            <helyszin>In/15</helyszin>
+            <oktato>Forrai Monika</oktato>
+            <szak>mernokinfo</szak>
+        </targy>
+    </ora>
+</orarend>
