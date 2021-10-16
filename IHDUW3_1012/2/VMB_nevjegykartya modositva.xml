@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nevjegykartyak>
+	<nevjegykartya id="1">
+		<nev>Varadi Marcell Balazs</nev>
+		<ceg>
+			<nev>Unit Credit Bank</nev>
+			<cim>
+				<iranyitoszam>3600</iranyitoszam>
+				<varos>Ozd</varos>
+				<utca>Valami korter</utca>
+				<hazszam>4</hazszam>
+			</cim>
+		<telefonszam>0630552555</telefonszam>
+		<weblap>https://users.iit.uni-miskolc.hu/~varadi11</weblap>	
+		</ceg>
+		
+		<beosztas>hallgato</beosztas>
+		<email>varadi11@uni.iit-miskolc.hu</email>
+	</nevjegykartya>
+	
+	<nevjegykartya id="2">
+		<nev>Kiss Bela</nev>
+		<ceg>
+			<nev>Otp Bank</nev>
+			<cim>
+				<iranyitoszam>1234</iranyitoszam>
+				<varos>Budapest</varos>
+				<utca>Alkotmany</utca>
+				<hazszam>4</hazszam>
+			</cim>
+		<telefonszam>067043242</telefonszam>
+		<weblap>wwww.kissbela.hu</weblap>	
+		</ceg>
+		
+		<beosztas>hallgato</beosztas>
+		<email>kissbella@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>
