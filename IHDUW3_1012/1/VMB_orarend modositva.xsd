@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="orarend">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ora" type="oratipus"
+					maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="oratipusanaktipusa">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Előadás" />
+			<xs:enumeration value="Gyakorlat" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="napok">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Hétfő" />
+			<xs:enumeration value="Kedd" />
+			<xs:enumeration value="Szerda" />
+			<xs:enumeration value="Csütörtök" />
+			<xs:enumeration value="Péntek" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="szakTipus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Mernokinfo" />
+			<xs:enumeration value="Programtervezo" />
+			<xs:enumeration value="Gazdinfo" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="idopontTipus">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="8" />
+			<xs:maxInclusive value="18" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="idoTipus">
+		<xs:sequence>
+			<xs:element name="nap" type="napok" />
+			<xs:element name="tol" type="idopontTipus" />
+			<xs:element name="ig" type="idopontTipus" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="oratipus">
+		<xs:sequence>
+			<xs:element name="targy" type="xs:string" />
+			<xs:element name="idopont" type="idoTipus" />
+			<xs:element name="helyszin" type="xs:string" />
+			<xs:element name="oktato" type="xs:string" />
+			<xs:element name="szak" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+		<xs:attribute name="tipus" type="oratipusanaktipusa"
+			use="required" />
+
+	</xs:complexType>
+</xs:schema>
+                  
