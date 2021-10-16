@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<konyvek>
+	<konyv isbn="024">
+		<cim>DzsungelKonyve</cim>
+		<szerzo>Rudyard Kipling</szerzo>
+		<szereplo>
+			<nev>Maugli</nev>
+			<baratja>Bagira</baratja>
+			<szuletett>1930</szuletett>
+			<jellemzes>okos</jellemzes>
+		</szereplo>
+		<masik>
+			<nev>Bagira</nev>
+			<szuletett>1918</szuletett>
+			<jellemzes>gyors</jellemzes>
+		</masik>
+	</konyv>
+</konyvek>
