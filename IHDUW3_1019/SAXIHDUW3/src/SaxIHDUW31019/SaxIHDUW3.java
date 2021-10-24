@@ -4,7 +4,7 @@ public class SaxExample {
             SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
             SAXParser saxParser = saxParserFactory.newSAXParser();
             SaxHandler handler = new SaxHandler();
-            saxParser.parse(new File("example.xml"), handler);
+            saxParser.parse(new File("szemelyekIHDUW3.xml"), handler);
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
