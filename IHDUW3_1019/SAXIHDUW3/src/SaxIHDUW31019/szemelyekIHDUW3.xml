@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<szemelyek>
+    <szemely id="1">
+        <nev></nev>
+        <kor></kor>
+        <varos></varos>
+    </szemely>
+    <szemely id="2">
+        <nev></nev>
+        <varos></varos>
+    </szemely>
+    <szemely id="3">
+        <nev></nev>
+        <kor></kor>
+        <varos></varos>
+    </szemely>
+</szemelyek>
