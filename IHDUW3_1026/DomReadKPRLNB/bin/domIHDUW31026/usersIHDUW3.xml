@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="1">
+		
+			<firstname>Marcell Balazs</firstname>
+			<lastname>Varadi</lastname>
+			<profession>programozo</profession>
+	</user>
+	
+	<user id="2">
+		
+			<firstname>Bela</firstname>
+			<lastname>Kis</lastname>
+			<profession>mernok</profession>
+	</user>
+	
+	<user id="3">
+		
+			<firstname>Gyula</firstname>
+			<lastname>Kovacs</lastname>
+			<profession>menedzser</profession>
+	</user>
+</users>
