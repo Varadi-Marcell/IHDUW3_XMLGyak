@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="XMLSchemaIHDUW3.xsd" ?>
+<gitarWebShops>
+
+	<webshops>
+		<webshop id="web1">
+			<nev>ThomannMusic</nev>
+			<cim>
+				<utca>Hans Thomann utca</utca>
+				<varos>Treppendorf</varos>
+				<iranyitoszam>96138</iranyitoszam>
+			</cim>
+
+			<tulajdonos>Hans Thomann</tulajdonos>
+			<alapitva>1954</alapitva>
+			<idgitar refid="gitar1">gitar1</idgitar>
+			<idrendelo refid="rendelo1">rendelo1</idrendelo>
+			
+		</webshop>
+		<webshop id="web2">
+			<nev>Tajti Music Hangszer</nev>
+			<cim>
+				<utca>Rákóczi út</utca>
+				<varos>Pécs</varos>
+				<iranyitoszam>7622</iranyitoszam>
+			</cim>
+
+			<tulajdonos>Monori Tibor</tulajdonos>
+			<alapitva>1990</alapitva>
+			<idgitar refid="gitar1">gitar1</idgitar>
+			<idrendelo refid="rendelo2">rendelo1</idrendelo>
+		</webshop>
+	</webshops>
+
+	<gitarok>
+		<gitar id="gitar1">
+			<tipus>RG370dx</tipus>
+			<kivitel>elektromos</kivitel>
+			<szin>fekete</szin>
+			<ar>140000</ar>
+			<gyartas>2004</gyartas>
+			<idgyarto refid="gy1">gy1</idgyarto>
+		</gitar>
+		<gitar id="gitar2">
+			<tipus>AZ3210</tipus>
+			<kivitel>elektromos</kivitel>
+			<szin>fekete</szin>
+			<ar>240000</ar>
+			<gyartas>2019</gyartas>
+			<idgyarto refid="gy1">gy1</idgyarto>
+		</gitar>
+	</gitarok>
+	<gyartok>
+		<gyarto id="gy1">
+			<orszag>Korea</orszag>
+			<nev>Ibanez</nev>
+			<tulajdonos>Hoshino Gakki</tulajdonos>
+		</gyarto>
+	</gyartok>
+
+	<rendelok>
+		<rendelo id="rendelo1">
+			<nev>Kiss Bela</nev>
+			<email>bela@gmail.com</email>
+			<cim>
+				<utca>Kossuth utca</utca>
+				<iranyitoszam>3500</iranyitoszam>
+				<varos>Miskolc</varos>
+			</cim>
+		</rendelo>
+		
+		<rendelo id="rendelo2">
+			<nev>Nagy Tamas</nev>
+			<email>tamas@gmail.com</email>
+			<cim>
+				<utca>Kovacs utca</utca>
+				<iranyitoszam>3500</iranyitoszam>
+				<varos>Miskolc</varos>
+			</cim>
+		</rendelo>
+	</rendelok>
+	<rendeless>
+		<rendeles id="rendeles1">
+			<statusz>aktív</statusz>
+			<kiszallito>Posta</kiszallito>
+			<megjegyzes>Nincs</megjegyzes>
+			<idfiz refid="fiz1">fiz1</idfiz>
+		</rendeles>
+		
+		<rendeles id="rendeles2">
+			<statusz>aktív</statusz>
+			<kiszallito>Posta</kiszallito>
+			<megjegyzes>Nincs</megjegyzes>
+			<idfiz refid="fiz2">fiz1</idfiz>
+		</rendeles>
+	</rendeless>
+
+	<kapcs_rendelesek>
+		<rendelesek id="1">
+			<idrendelo refid="rendelo1">rendelo1</idrendelo>
+			<idrendeles refid="rendeles1">rendeles1</idrendeles>
+			<darab>1</darab>
+			<feladasdatuma>2021</feladasdatuma>
+		</rendelesek>
+		
+		<rendelesek id="2">
+			<idrendelo refid="rendelo2">rendelo2</idrendelo>
+			<idrendeles refid="rendeles2">rendeles2</idrendeles>
+			<darab>1</darab>
+			<feladasdatuma>2021</feladasdatuma>
+		</rendelesek>
+	</kapcs_rendelesek>
+
+	<fizetesek>
+		<fizetes id="fiz1">
+			<datum>2021</datum>
+			<orszag>Magyarország</orszag>
+			<fizetesimod>Bankkártya</fizetesimod>
+		</fizetes>
+		
+		<fizetes id="fiz2">
+			<datum>2021</datum>
+			<orszag>Magyarország</orszag>
+			<fizetesimod>Bankkártya</fizetesimod>
+		</fizetes>
+	</fizetesek>
+
+</gitarWebShops>
+
