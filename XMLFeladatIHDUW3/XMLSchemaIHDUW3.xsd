@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="qualified">
+
+	<xs:element name="gitarWebShops">
+
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="webshops" type="webshopstype" />
+				<xs:element name="gitarok" type="gitaroktype" />
+				<xs:element name="gyartok" type="gyartoktype" />
+				<xs:element name="rendelo" type="rendeloktype" />
+				<xs:element name="rendelesek" type="rendelesektype" />
+				<xs:element name="kapcs_rendelesek" type="kapcs_rendelesektype" />
+				<xs:element name="fizetesek" type="fizetesektype" />
+			</xs:sequence>
+		</xs:complexType>
+
+	</xs:element>
+
+	<xs:complexType name="webshopstype">
+		<xs:sequence>
+			<xs:element name="webshop" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nev" type="xs:string" />
+						<xs:element name="cim" type="cimtype" />
+						<xs:element name="tulajdonos" type="xs:string" />
+						<xs:element name="alapitva" type="xs:string" />
+						<xs:element name="idgitar">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="idrendelo">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="cimtype">
+		<xs:sequence>
+			<xs:element name="utca" type="xs:string" />
+			<xs:element name="varos" type="xs:string" />
+			<xs:element name="iranyitoszam" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="gitaroktype">
+		<xs:sequence>
+			<xs:element name="gitarok" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="tipus" type="xs:string" />
+						<xs:element name="kivitel" type="kiviteltype" />
+						<xs:element name="szin" type="xs:string" />
+						<xs:element name="ar" type="xs:string" />
+						<xs:element name="gyartas" type="xs:string" />
+						<xs:element name="idgyarto">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="kiviteltype">
+		<xs:sequence>
+			<xs:element name="elektromos" type="xs:string" />
+			<xs:element name="akusztikus" type="xs:string" />
+			<xs:element name="klasszikus" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="gyartoktype">
+		<xs:sequence>
+			<xs:element name="gyartok" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="orszag" type="xs:string" />
+						<xs:element name="nev" type="xs:string" />
+						<xs:element name="tulajdonos" type="xs:string" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="rendeloktype">
+		<xs:sequence>
+			<xs:element name="rendelo" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nev" type="xs:string" />
+						<xs:element name="email" type="xs:string" />
+						<xs:element name="cim" type="cimtype" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="kapcs_rendelesektype">
+		<xs:sequence>
+			<xs:element name="kapcs_rendelesek" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="idrendelo">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="idrendeles">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="darab" type="xs:integer" />
+						<xs:element name="feladasdatuma" type="xs:string" />
+
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+
+
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="rendelesektype">
+		<xs:sequence>
+			<xs:element name="rendeles" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="statusz" type="xs:string" />
+						<xs:element name="kiszallito" type="cimtype" />
+						<xs:element name="megjegyzes" type="xs:string" />
+						<xs:element name="idfiz">
+							<xs:complexType>
+								<xs:attribute name="refID" type="xs:IDREF" />
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="fizetesektype">
+		<xs:sequence>
+			<xs:element name="fizetes" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="datum" type="xs:string" />
+						<xs:element name="osszeg" type="cimtype" />
+						<xs:element name="fizetesimod" type="xs:string" />
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:ID" use="required" />
+
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
